@@ -1,6 +1,6 @@
 ** Getting Started
-*** Install dependencies
-*** Run piratewall.py
-*** The initial screen is rendered by static/js/controller.js
+**** Install dependencies
+**** Run piratewall.py
+**** The initial screen is rendered by static/js/controller.js
 ** Dependencies
-*** flask [http://flask.pocoo.org/docs/]
+**** flask [http://flask.pocoo.org/docs/]
