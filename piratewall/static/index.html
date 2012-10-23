@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <!-- <link rel="stylesheet" href="static/css/app.css"> -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/piratewall.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="static/js/controller.js"></script>
+  </head>
+  <body ng-controller="TaskListCtrl">
+
+    <div class="span3" ng-repeat="status in statuses">
+      <h3>{{status.Name}}</h3>
+      <div class="card" ng-repeat="task in status.Tasks | orderBy:orderProp">
+        <p>{{task.id}}</p>
+        <p>{{task.Subject}}</p>
+      </div>
+    </div>
+
+    <ul>
+    </ul>
+    
+  </body>
+</html>
