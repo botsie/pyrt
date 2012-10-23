@@ -3,4 +3,4 @@
 - Run piratewall.py
 - The initial screen is rendered by static/js/controller.js
 ** Dependencies
-- Flask [http://flask.pocoo.org/docs/]
+- [[Flask][http://flask.pocoo.org/docs/]]
